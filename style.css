@@ -1,0 +1,488 @@
+/* Font Family */
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+
+
+:root {
+    font-size: 10px;
+    --St-cyan: hsl(171, 66%, 44%);
+    --Lig-blue: hsl(233, 100%, 69%);
+    --DG-blue: hsl(210, 10%, 33%);
+    --Gray-blue: hsl(201, 11%, 66%);
+}
+
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+p {
+    color: hsla(212, 10%, 33%, 0.616);
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+}
+
+
+a{
+    color: hsla(212, 10%, 33%, 0.616);
+    display: inline-block;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+/* Header Section Style */
+.landing__header{
+    background: url(bg-header-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4rem 0 4rem;
+    margin-bottom: 4rem;
+}
+
+.landing__header__wrapper{
+    margin-bottom: 1rem;
+}
+
+.landing__header__logo{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.landing__header__logo img{
+    object-fit: cover;
+    width: 100px;
+}
+
+.landing__header__info{
+    margin-bottom: 1rem;
+}
+
+.landing__header__title{
+    font-size: 3.3rem;
+    margin-bottom: 1.5rem;
+}
+
+.landing__header__text{
+    line-height: 1.4em;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+}
+
+.landing__header__btn,
+.landing__main__bottom__btn{
+    margin: 0 auto;
+    width: 100%;
+}
+
+.landing__header__btn li,
+.landing__main__bottom__btn li{
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+.landing__header__btn li a,
+.landing__main__bottom__btn li a{
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem 5rem;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+}
+
+.IOS {
+    background-color: var(--St-cyan);
+    box-shadow: 0 4px 1px hsl(171, 78%, 35%);
+}
+
+.IOS:hover {
+    background-color: hsl(171, 45%, 60%);
+    box-shadow: 0 4px 1px hsl(171, 45%, 60%);
+}
+
+.MAC {
+    background-color: var(--Lig-blue);
+    box-shadow: 0 4px 0px hsl(233, 70%, 59%);
+}
+
+.MAC:hover {
+    background-color: hsl(233, 74%, 69%);
+    box-shadow: 0 4px 0px hsl(233, 74%, 69%);
+}
+
+
+/* Main Section Styles */
+.landing__main{
+    margin-bottom: 4rem;
+}
+
+
+/* Main Top Section styles */
+.landing__main__top {
+    margin-bottom: 1rem;
+}
+
+.landing__main__top__info {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+}
+
+.landing__main__top__title{
+    font-size: 2.7rem;
+    line-height: 1.2em;
+    margin-bottom: 1.5rem;
+}
+
+.landing__main__top__text {
+    line-height: 1.4em;
+    margin-bottom: 1.5rem;
+}
+
+
+/* Main Top Addendum Section Style */
+.landing__main__top__addendum{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.landing__main__top__img {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.landing__main__top__img img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.landing__main__top__addendum__infos {
+    max-width: 400px;
+    padding: 1.5rem;
+    margin: 0 auto;
+}
+
+.landing__main__top__addendum__info {
+    margin-bottom: 2rem;
+}
+
+.landing__main__top__addendum__title{
+    font-size: 2.1rem;
+    margin-bottom: 1rem;
+}
+
+.landing__main__top__addendum__text {
+    line-height: 1.4em;
+    margin-bottom: 1rem;
+}
+
+/* Main Mid Section */
+.landing__main__mid {
+    padding: 1.5rem;
+}
+
+.landing__main__mid__info{
+    margin-bottom: 1.5rem;
+}
+
+.landing__main__mid__title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.landing__main__mid__text {
+    line-height: 1.4em;
+    margin-bottom: 1rem;
+}
+
+.landin__main__mid__img {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.landin__main__mid__img img{
+    object-fit: cover;
+    width: 100%;
+}
+
+
+/* Main Bottom Section Style */
+.landing__main__bottom {
+    margin-bottom: 3rem;
+}
+
+/* Main Bottom Info style */
+.landing__main__bottom__info {
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.landing__main__bottom__title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.landing__main__bottom__text {
+    margin-bottom: 1rem;
+}
+
+/* Main Bottom Addendum Style */
+.landing__main__bottom__addendum {
+    padding: 4.5rem;
+    margin-bottom: 2.5rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.landing__main__bottom__addendum__info {
+    margin-bottom: 2rem;
+    margin: 0 auto;
+}
+
+.landing__main__bottom__addendum__icon {
+    height: 70px;
+    margin-bottom: 1rem;
+}
+
+.landing__main__bottom__addendum__icon img {
+    width: 60px;
+}
+
+.landing__main__bottom__addendum__title {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.landing__main__bottom__addendum__text {
+    line-height: 1.4em;
+    margin-bottom: 1rem;
+}
+
+/* Main Bottom Images */
+.landing__main__bottom__imgs {
+    padding: 4.5rem;
+    margin-bottom: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.landing__main__bottom__img{
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.landing__main__bottom__img img{
+    object-fit: cover;
+    width: 100px;
+}
+
+/* Main Bottom Clipboard */
+.landing__main__bottom__clipbd {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.landing__main__bottom__clipbd__title {
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
+}
+
+.landing__main__bottom__clipbd__text {
+    line-height: 1.4em;
+    margin-bottom: 2rem;
+}
+
+
+/* Footer Section Style */
+.landing__footer {
+    background: hsla(206, 5%, 72%, 0.37);
+    padding: 4rem 0;
+}
+
+.landing__footer__wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.landing__footer__links {
+    display: flex;
+    flex-direction: column;
+}
+
+.landing__footer__links .landing__footer__logo {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.landing__footer__links .landing__footer__logo img{
+    object-fit: cover;
+    width: 50px;
+}
+
+.landing__footer__links ul {
+    margin-bottom: 2rem;
+}
+
+.landing__footer__links ul li {
+    margin-bottom: 1rem;
+}
+
+.landing__footer__links ul li a {
+    font-size: 1.4rem;
+}
+
+.landing__footer__links ul li a:hover {
+    color: var(--St-cyan);
+    border-bottom: 1px solid var(--St-cyan);
+}
+
+
+.landing__footer__socials ul li{
+    display: inline-block;
+    margin-right: 2rem;
+}
+
+
+.landing__footer__socials ul li a:hover svg path{
+    fill: var(--St-cyan);
+}
+
+
+/* Media query */
+@media only screen and (min-width: 768px){
+    p {
+        font-size: 1.8rem;
+        margin-bottom: 2rem;
+    }
+
+    .landing__header {
+        background: url(bg-header-desktop.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .landing__header__logo img{
+        object-fit: cover;
+        width: 150px;
+    }
+
+    .landing__header__title{
+        font-size: 3.6rem;
+        margin-bottom: 1.8rem;
+    }
+    
+    .landing__header__btn li,
+    .landing__main__bottom__btn li{
+        display: inline-block;
+        margin: 0 auto;
+        margin-right: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .landing__main__top__addendum{
+        display: flex;
+        flex-direction: row;
+        gap: 6rem;
+        max-width: fit-content;
+    }
+    
+    .landing__main__top__img {
+        flex: 3;
+    }
+    
+    .landing__main__top__addendum__infos {
+        text-align: left;
+        align-self: center;
+        flex: 3;
+    }
+    
+    .landing__main__bottom__addendum {
+        margin-bottom: 4rem;
+        flex-direction: row;
+        gap: 3rem;
+    }
+    
+    .landing__main__bottom__addendum__info {
+        flex: 1;
+        flex-basis: 30%;
+        margin-bottom: 2rem;
+    }
+    
+    .landing__main__bottom__imgs {
+        flex-direction: row;
+        gap: 2rem;
+    }
+    
+    .landing__main__bottom__img{
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+    
+    .landing__main__bottom__img img{
+        width: 150px;
+    }
+
+    .landing__footer__wrapper {
+        flex-direction: row;
+    }
+    
+    .landing__footer__links {
+        flex-direction: row;
+        flex: 4;
+    }
+
+    .landing__footer__links .landing__footer__logo {
+        width: 100%;
+        margin-bottom: 2rem;
+        flex: 1;
+    }
+
+    .landing__footer__links ul {
+        margin-bottom: 2rem;
+        flex: 2;
+    }
+
+    .landing__footer__links ul li a {
+        font-size: 1.8rem;
+    }
+
+    .landing__footer__socials {
+        flex: 1;
+    }
+}
